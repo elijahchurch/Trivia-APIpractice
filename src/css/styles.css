@@ -1,4 +1,32 @@
 body {
     text-align: center;
     font-size: larger;
+    background-color: rgb(94, 57, 10)
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.container {
+    border-style: solid;
+    background-color: burlywood;
+    padding: 20px;
+    margin: 20px;
+}
+
+#start {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#cardResults {
+    display: flex;
+}
+
+.CARD {
+    width: 20%;
+    font-size: medium;
+    align-items: center;
 }

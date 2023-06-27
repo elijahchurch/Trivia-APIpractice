@@ -23,6 +23,7 @@ function sendError(error) {
 function createCards(response) {
     for (let i = 0; i < 5; i++) {
         document.querySelector(`#question${i}`).innerText = `${response.results[i].question}`;
+        document.querySelector(`#answer${i}`).innerText = `${response.results[i].correct_answer}`
     }
     document.querySelector("#cardResults").removeAttribute("class");
 }
